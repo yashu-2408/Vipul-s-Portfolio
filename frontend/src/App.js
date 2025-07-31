@@ -491,6 +491,20 @@ const App = () => {
                 </div>
                 
               </div>
+              <div className="contact-links">
+                <a href="mailto:vipuutakarsh3224@gmail.com" className="contact-icon">
+                  <i className="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+919546546797" className="contact-icon">
+                  <i className="fas fa-phone"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/vipul-utakarsh-9a38a9205" className="contact-icon">
+                  <i className="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/yashu-2408" className="contact-icon">
+                  <i className="fab fa-github"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
