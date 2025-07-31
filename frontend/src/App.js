@@ -147,10 +147,10 @@ const App = () => {
                 <a href="tel:+919546546797" className="contact-icon">
                   <i className="fas fa-phone"></i>
                 </a>
-                <a href="#" className="contact-icon">
+                <a href="https://www.linkedin.com/in/vipul-utakarsh-9a38a9205" className="contact-icon">
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="#" className="contact-icon">
+                <a href="https://github.com/yashu-2408" className="contact-icon">
                   <i className="fab fa-github"></i>
                 </a>
               </div>
