@@ -301,6 +301,159 @@ const App = () => {
         </div>
       </section>
 
+      {/* Skills Section */}
+      <section className="py-20 relative overflow-hidden">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title">Technical Expertise</h2>
+          </div>
+          <div className="skills-flowing-container">
+            <div className="skills-flow">
+              <div className="skill-track">
+                {/* Languages */}
+                <div className="skill-item skill-cpp">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+                  <span>C++</span>
+                </div>
+                <div className="skill-item skill-java">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+                  <span>Java</span>
+                </div>
+                <div className="skill-item skill-python">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+                  <span>Python</span>
+                </div>
+                <div className="skill-item skill-js">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                  <span>JavaScript</span>
+                </div>
+                <div className="skill-item skill-sql">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" />
+                  <span>SQL</span>
+                </div>
+                
+                {/* Frameworks */}
+                <div className="skill-item skill-react">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+                  <span>React</span>
+                </div>
+                <div className="skill-item skill-django">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" />
+                  <span>Django</span>
+                </div>
+                <div className="skill-item skill-flask">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" />
+                  <span>Flask</span>
+                </div>
+                
+                {/* Technologies */}
+                <div className="skill-item skill-firebase">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" />
+                  <span>Firebase</span>
+                </div>
+                <div className="skill-item skill-mongodb">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+                  <span>MongoDB</span>
+                </div>
+                <div className="skill-item skill-github">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+                  <span>GitHub</span>
+                </div>
+                
+                {/* Core Subjects Icons */}
+                <div className="skill-item skill-ml">
+                  <div className="custom-icon ml-icon">🤖</div>
+                  <span>Machine Learning</span>
+                </div>
+                <div className="skill-item skill-db">
+                  <div className="custom-icon db-icon">🗃️</div>
+                  <span>DBMS</span>
+                </div>
+                <div className="skill-item skill-network">
+                  <div className="custom-icon network-icon">🌐</div>
+                  <span>Networks</span>
+                </div>
+                <div className="skill-item skill-os">
+                  <div className="custom-icon os-icon">💻</div>
+                  <span>Operating Systems</span>
+                </div>
+              </div>
+              
+              {/* Duplicate for continuous flow */}
+              <div className="skill-track">
+                {/* Languages */}
+                <div className="skill-item skill-cpp">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+                  <span>C++</span>
+                </div>
+                <div className="skill-item skill-java">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+                  <span>Java</span>
+                </div>
+                <div className="skill-item skill-python">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+                  <span>Python</span>
+                </div>
+                <div className="skill-item skill-js">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                  <span>JavaScript</span>
+                </div>
+                <div className="skill-item skill-sql">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" />
+                  <span>SQL</span>
+                </div>
+                
+                {/* Frameworks */}
+                <div className="skill-item skill-react">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+                  <span>React</span>
+                </div>
+                <div className="skill-item skill-django">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" />
+                  <span>Django</span>
+                </div>
+                <div className="skill-item skill-flask">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" />
+                  <span>Flask</span>
+                </div>
+                
+                {/* Technologies */}
+                <div className="skill-item skill-firebase">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" />
+                  <span>Firebase</span>
+                </div>
+                <div className="skill-item skill-mongodb">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+                  <span>MongoDB</span>
+                </div>
+                <div className="skill-item skill-github">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+                  <span>GitHub</span>
+                </div>
+                
+                {/* Core Subjects Icons */}
+                <div className="skill-item skill-ml">
+                  <div className="custom-icon ml-icon">🤖</div>
+                  <span>Machine Learning</span>
+                </div>
+                <div className="skill-item skill-db">
+                  <div className="custom-icon db-icon">🗃️</div>
+                  <span>DBMS</span>
+                </div>
+                <div className="skill-item skill-network">
+                  <div className="custom-icon network-icon">🌐</div>
+                  <span>Networks</span>
+                </div>
+                <div className="skill-item skill-os">
+                  <div className="custom-icon os-icon">💻</div>
+                  <span>Operating Systems</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Certifications Section */}
       <section className="py-20 relative">
         <div className="container mx-auto px-6">
