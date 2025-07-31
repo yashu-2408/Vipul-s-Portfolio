@@ -489,10 +489,7 @@ const App = () => {
                   <i className="fas fa-phone contact-detail-icon"></i>
                   <span>+91 9546546797</span>
                 </div>
-                <div className="contact-detail">
-                  <i className="fas fa-map-marker-alt contact-detail-icon"></i>
-                  <span>Samastipur, Bihar, India</span>
-                </div>
+                
               </div>
             </div>
           </div>
