@@ -479,7 +479,7 @@ const App = () => {
               <div className="contact-details">
                 <div className="contact-detail">
                   <i className="fas fa-envelope contact-detail-icon"></i>
-                  <span>vipuutakarsh3224@gmail.com</span>
+                  <span>viputakarsh3224@gmail.com</span>
                 </div>
                 <div className="contact-detail">
                   <i className="fas fa-phone contact-detail-icon"></i>
