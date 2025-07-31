@@ -249,40 +249,91 @@ const App = () => {
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 relative">
+      <section id="projects" className="py-20 relative overflow-hidden">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="section-title">Featured Projects</h2>
           </div>
-          <div className="projects-grid">
+          <div className="projects-showcase">
             {projects.map((project, index) => (
-              <div key={index} className="project-card-container">
-                <div className="project-card">
-                  <div className="project-card-inner">
-                    <div className="project-card-front">
-                      <div className={`project-gradient bg-gradient-to-br ${project.gradient}`}></div>
-                      <div className="project-content">
-                        <h3 className="project-title">{project.title}</h3>
-                        <p className="project-description">{project.description}</p>
-                        <div className="project-status">
-                          {project.status || project.date}
-                        </div>
-                      </div>
-                    </div>
-                    <div className="project-card-back">
-                      <div className="tech-stack">
-                        <h4 className="text-xl font-bold text-white mb-4">Tech Stack</h4>
-                        <div className="tech-tags">
-                          {project.tech.map((tech, i) => (
-                            <span key={i} className="tech-tag">{tech}</span>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
+              <div key={index} className={`project-item project-${index + 1}`}>
+                <div className="project-visual">
+                  <div className={`project-bg bg-gradient-to-br ${project.gradient}`}></div>
+                  <div className="project-overlay"></div>
+                  <div className="project-icon">
+                    <i className={`fas ${index === 0 ? 'fa-brain' : index === 1 ? 'fa-camera' : index === 2 ? 'fa-mobile-alt' : 'fa-chart-line'}`}></i>
+                  </div>
+                </div>
+                <div className="project-details">
+                  <div className="project-header">
+                    <h3 className="project-name">{project.title}</h3>
+                    <span className="project-badge">{project.status || project.date}</span>
+                  </div>
+                  <p className="project-desc">{project.description}</p>
+                  <div className="project-tech-stack">
+                    {project.tech.map((tech, i) => (
+                      <span key={i} className="tech-pill">{tech}</span>
+                    ))}
+                  </div>
+                  <div className="project-actions">
+                    <button className="project-btn primary">
+                      <i className="fas fa-eye"></i>
+                      View Details
+                    </button>
+                    <button className="project-btn secondary">
+                      <i className="fab fa-github"></i>
+                      Code
+                    </button>
                   </div>
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Education Section */}
+      <section className="py-20 relative overflow-hidden">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title">Educational Journey</h2>
+          </div>
+          <div className="education-journey">
+            <div className="journey-path">
+              <div className="journey-line"></div>
+              <div className="journey-stages">
+                <div className="stage stage-1" data-year="2018-2019">
+                  <div className="stage-avatar">
+                    <div className="avatar-kid">👦</div>
+                  </div>
+                  <div className="stage-content">
+                    <h3>Senior Secondary</h3>
+                    <p>S.D.S.V.M, Samastipur</p>
+                    <span className="grade">90%</span>
+                  </div>
+                </div>
+                <div className="stage stage-2" data-year="2020-2021">
+                  <div className="stage-avatar">
+                    <div className="avatar-teen">👨‍🎓</div>
+                  </div>
+                  <div className="stage-content">
+                    <h3>Higher Secondary</h3>
+                    <p>Sri Chaitanya Techno School, Vishakhapatnam</p>
+                    <span className="grade">96.7%</span>
+                  </div>
+                </div>
+                <div className="stage stage-3" data-year="2021-2025">
+                  <div className="stage-avatar">
+                    <div className="avatar-college">👨‍💻</div>
+                  </div>
+                  <div className="stage-content">
+                    <h3>B.E. Computer Science</h3>
+                    <p>Chandigarh University</p>
+                    <span className="grade">CGPA: 7.76</span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
