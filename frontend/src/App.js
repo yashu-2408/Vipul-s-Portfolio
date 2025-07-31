@@ -491,7 +491,11 @@ const App = () => {
                 </div>
                 
               </div>
-              <div className="contact-links">
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="contact-links">
                 <a href="mailto:vipuutakarsh3224@gmail.com" className="contact-icon">
                   <i className="fas fa-envelope"></i>
                 </a>
@@ -505,10 +509,6 @@ const App = () => {
                   <i className="fab fa-github"></i>
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="py-8 border-t border-gray-800">
