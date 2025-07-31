@@ -184,152 +184,116 @@ const App = () => {
         </div>
       </section>
 
-      {/* Skills Section */}
+      {/* Work Experience */}
+      <section className="py-20 relative">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title">Work Experience</h2>
+          </div>
+          <div className="max-w-4xl mx-auto">
+            <div className="work-card">
+              <div className="work-header">
+                <h3 className="text-2xl font-bold text-white">Back End Developer</h3>
+                <div className="work-meta">
+                  <span className="company">The Detailing Hustler</span>
+                  <span className="location">Freelance Remote | Canada</span>
+                  <span className="duration">Aug 2023 - Jan 2024</span>
+                </div>
+              </div>
+              <ul className="work-achievements">
+                <li>Developed and optimized back-end APIs for the car detailing platform</li>
+                <li>Integrated Firebase for real-time data synchronization</li>
+                <li>Improved database efficiency, reducing response time by 30%</li>
+                <li>Implemented authentication and security best practices</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Projects Section */}
+      <section id="projects" className="py-20 relative overflow-hidden">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className="section-title">Featured Projects</h2>
+          </div>
+          <div className="projects-showcase">
+            {projects.map((project, index) => (
+              <div key={index} className={`project-item project-${index + 1}`}>
+                <div className="project-visual">
+                  <div className={`project-bg bg-gradient-to-br ${project.gradient}`}></div>
+                  <div className="project-overlay"></div>
+                  <div className="project-icon">
+                    <i className={`fas ${index === 0 ? 'fa-brain' : index === 1 ? 'fa-camera' : index === 2 ? 'fa-mobile-alt' : 'fa-chart-line'}`}></i>
+                  </div>
+                </div>
+                <div className="project-details">
+                  <div className="project-header">
+                    <h3 className="project-name">{project.title}</h3>
+                    <span className="project-badge">{project.status || project.date}</span>
+                  </div>
+                  <p className="project-desc">{project.description}</p>
+                  <div className="project-tech-stack">
+                    {project.tech.map((tech, i) => (
+                      <span key={i} className="tech-pill">{tech}</span>
+                    ))}
+                  </div>
+                  <div className="project-actions">
+                    <button className="project-btn primary">
+                      <i className="fas fa-eye"></i>
+                      View Details
+                    </button>
+                    <button className="project-btn secondary">
+                      <i className="fab fa-github"></i>
+                      Code
+                    </button>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Education Section */}
       <section className="py-20 relative overflow-hidden">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="section-title">Technical Expertise</h2>
+            <h2 className="section-title">Educational Journey</h2>
           </div>
-          <div className="skills-flowing-container">
-            <div className="skills-flow">
-              <div className="skill-track">
-                {/* Languages */}
-                <div className="skill-item skill-cpp">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
-                  <span>C++</span>
+          <div className="education-journey">
+            <div className="journey-path">
+              <div className="journey-line"></div>
+              <div className="journey-stages">
+                <div className="stage stage-1" data-year="2018-2019">
+                  <div className="stage-avatar">
+                    <div className="avatar-kid">👦</div>
+                  </div>
+                  <div className="stage-content">
+                    <h3>Senior Secondary</h3>
+                    <p>S.D.S.V.M, Samastipur</p>
+                    <span className="grade">90%</span>
+                  </div>
                 </div>
-                <div className="skill-item skill-java">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
-                  <span>Java</span>
+                <div className="stage stage-2" data-year="2020-2021">
+                  <div className="stage-avatar">
+                    <div className="avatar-teen">👨‍🎓</div>
+                  </div>
+                  <div className="stage-content">
+                    <h3>Higher Secondary</h3>
+                    <p>Sri Chaitanya Techno School, Vishakhapatnam</p>
+                    <span className="grade">96.7%</span>
+                  </div>
                 </div>
-                <div className="skill-item skill-python">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
-                  <span>Python</span>
-                </div>
-                <div className="skill-item skill-js">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
-                  <span>JavaScript</span>
-                </div>
-                <div className="skill-item skill-sql">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" />
-                  <span>SQL</span>
-                </div>
-                
-                {/* Frameworks */}
-                <div className="skill-item skill-react">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
-                  <span>React</span>
-                </div>
-                <div className="skill-item skill-django">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" />
-                  <span>Django</span>
-                </div>
-                <div className="skill-item skill-flask">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" />
-                  <span>Flask</span>
-                </div>
-                
-                {/* Technologies */}
-                <div className="skill-item skill-firebase">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" />
-                  <span>Firebase</span>
-                </div>
-                <div className="skill-item skill-mongodb">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
-                  <span>MongoDB</span>
-                </div>
-                <div className="skill-item skill-github">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
-                  <span>GitHub</span>
-                </div>
-                
-                {/* Core Subjects Icons */}
-                <div className="skill-item skill-ml">
-                  <div className="custom-icon ml-icon">🤖</div>
-                  <span>Machine Learning</span>
-                </div>
-                <div className="skill-item skill-db">
-                  <div className="custom-icon db-icon">🗃️</div>
-                  <span>DBMS</span>
-                </div>
-                <div className="skill-item skill-network">
-                  <div className="custom-icon network-icon">🌐</div>
-                  <span>Networks</span>
-                </div>
-                <div className="skill-item skill-os">
-                  <div className="custom-icon os-icon">💻</div>
-                  <span>Operating Systems</span>
-                </div>
-              </div>
-              
-              {/* Duplicate for continuous flow */}
-              <div className="skill-track">
-                {/* Languages */}
-                <div className="skill-item skill-cpp">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" />
-                  <span>C++</span>
-                </div>
-                <div className="skill-item skill-java">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
-                  <span>Java</span>
-                </div>
-                <div className="skill-item skill-python">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
-                  <span>Python</span>
-                </div>
-                <div className="skill-item skill-js">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
-                  <span>JavaScript</span>
-                </div>
-                <div className="skill-item skill-sql">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" />
-                  <span>SQL</span>
-                </div>
-                
-                {/* Frameworks */}
-                <div className="skill-item skill-react">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
-                  <span>React</span>
-                </div>
-                <div className="skill-item skill-django">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" />
-                  <span>Django</span>
-                </div>
-                <div className="skill-item skill-flask">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" />
-                  <span>Flask</span>
-                </div>
-                
-                {/* Technologies */}
-                <div className="skill-item skill-firebase">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" alt="Firebase" />
-                  <span>Firebase</span>
-                </div>
-                <div className="skill-item skill-mongodb">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
-                  <span>MongoDB</span>
-                </div>
-                <div className="skill-item skill-github">
-                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
-                  <span>GitHub</span>
-                </div>
-                
-                {/* Core Subjects Icons */}
-                <div className="skill-item skill-ml">
-                  <div className="custom-icon ml-icon">🤖</div>
-                  <span>Machine Learning</span>
-                </div>
-                <div className="skill-item skill-db">
-                  <div className="custom-icon db-icon">🗃️</div>
-                  <span>DBMS</span>
-                </div>
-                <div className="skill-item skill-network">
-                  <div className="custom-icon network-icon">🌐</div>
-                  <span>Networks</span>
-                </div>
-                <div className="skill-item skill-os">
-                  <div className="custom-icon os-icon">💻</div>
-                  <span>Operating Systems</span>
+                <div className="stage stage-3" data-year="2021-2025">
+                  <div className="stage-avatar">
+                    <div className="avatar-college">👨‍💻</div>
+                  </div>
+                  <div className="stage-content">
+                    <h3>B.E. Computer Science</h3>
+                    <p>Chandigarh University</p>
+                    <span className="grade">CGPA: 7.76</span>
+                  </div>
                 </div>
               </div>
             </div>
