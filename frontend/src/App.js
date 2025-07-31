@@ -26,28 +26,24 @@ const App = () => {
       title: "AI-Driven Travel Itinerary Planner",
       description: "AI-powered planner reducing itinerary planning time by 90%. OpenWeather API for real-time data synchronization across 100,000+ locations.",
       tech: ["OpenWeather", "Gemini", "Google Maps API", "AI/ML"],
-      status: "Ongoing",
       gradient: "from-blue-600 to-purple-600"
     },
     {
       title: "Facial Recognition Attendance System",
       description: "Automated attendance via facial recognition, reducing manual work by 90%. Real-time monitoring with 85% accuracy.",
       tech: ["Django", "OpenCV", "SQLite", "Python"],
-      date: "Nov 2024",
       gradient: "from-green-600 to-teal-600"
     },
     {
       title: "Custom Android ROM Development",
       description: "Built custom ROM modifying UI and system features for enhanced performance. Tweaked kernel settings for phone battery life.",
       tech: ["AOSP", "Linux Kernel", "Android"],
-      date: "Jan 2024",
       gradient: "from-orange-600 to-red-600"
     },
     {
       title: "Stock Market Prediction Web App",
       description: "Flask-based ML-powered stock market predictor. Real-time stock data retrieval through yFinance API.",
       tech: ["Flask", "yFinance", "PyTorch", "ML"],
-      date: "May 2023",
       gradient: "from-pink-600 to-purple-600"
     }
   ];
@@ -141,7 +137,7 @@ const App = () => {
                 </a>
               </div>
               <div className="contact-links">
-                <a href="mailto:vipuutakarsh3224@gmail.com" className="contact-icon">
+                <a href="mailto:viputakarsh3224@gmail.com" className="contact-icon">
                   <i className="fas fa-envelope"></i>
                 </a>
                 <a href="tel:+919546546797" className="contact-icon">
@@ -496,7 +492,7 @@ const App = () => {
         </div>
       </section>
       <div className="contact-links">
-                <a href="mailto:vipuutakarsh3224@gmail.com" className="contact-icon">
+                <a href="mailto:viputakarsh3224@gmail.com" className="contact-icon">
                   <i className="fas fa-envelope"></i>
                 </a>
                 <a href="tel:+919546546797" className="contact-icon">
