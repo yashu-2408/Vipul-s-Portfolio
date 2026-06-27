@@ -123,7 +123,7 @@ const App = () => {
                 </h2>
               </div>
               <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-8 leading-relaxed">
-                Passionate about creating innovative solutions with AI/ML, backend development, and mobile technologies.
+                Passionate about creating innovative solutions with AI/ML, backend development, and innovative technologies.
               </p>
               <div className="flex flex-wrap justify-center gap-4 mb-8">
                 <a href="mailto:vipuutakarsh3224@gmail.com" className="contact-btn">
@@ -167,7 +167,7 @@ const App = () => {
             <div className="about-card">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
                 I'm a passionate Computer Science student at Chandigarh University with a strong foundation in 
-                full-stack development, AI/ML, and mobile technologies. My experience spans from backend API 
+                full-stack development, AI/ML, and innovative technologies. My experience spans from backend API
                 development to creating AI-powered applications that solve real-world problems.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
