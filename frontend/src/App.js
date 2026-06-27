@@ -123,8 +123,7 @@ const App = () => {
                 </h2>
               </div>
               <p className="text-xl text-gray-400 max-w-3xl mx-auto mb-8 leading-relaxed">
-                Passionate about creating innovative solutions with AI/ML, backend development, and mobile technologies. 
-                Currently pursuing Computer Science at Chandigarh University.
+                Passionate about creating innovative solutions with AI/ML, backend development, and mobile technologies.
               </p>
               <div className="flex flex-wrap justify-center gap-4 mb-8">
                 <a href="mailto:vipuutakarsh3224@gmail.com" className="contact-btn">
