@@ -118,7 +118,7 @@ const App = () => {
             <div className="hero-card">
               <h1 className="hero-title">
                 <span className="block text-6xl md:text-8xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
-                  Vipul Utkarsh
+                  Vipul Utakarsh
                 </span>
               </h1>
               <div className="hero-subtitle">
@@ -130,7 +130,7 @@ const App = () => {
                 Passionate about creating innovative solutions with AI/ML, backend development, and innovative technologies.
               </p>
               <div className="flex flex-wrap justify-center gap-4 mb-8">
-                <a href="mailto:vipulutkarsh3224@gmail.com" className="contact-btn">
+                <a href="mailto:viputkarsh3224@gmail.com" className="contact-btn">
                   <i className="fas fa-envelope"></i>
                   Get In Touch
                 </a>
@@ -140,13 +140,13 @@ const App = () => {
                 </a>
               </div>
               <div className="contact-links">
-                <a href="mailto:vipulutkarsh3224@gmail.com" className="contact-icon">
+                <a href="mailto:viputkarsh3224@gmail.com" className="contact-icon">
                   <i className="fas fa-envelope"></i>
                 </a>
                 <a href="tel:+919546546797" className="contact-icon">
                   <i className="fas fa-phone"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/vipul-utkarsh-9a38a9205" className="contact-icon">
+                <a href="https://www.linkedin.com/in/vipul-utakarsh-9a38a9205" className="contact-icon">
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="https://github.com/yashu-2408" className="contact-icon">
@@ -482,7 +482,7 @@ const App = () => {
               <div className="contact-details">
                 <div className="contact-detail">
                   <i className="fas fa-envelope contact-detail-icon"></i>
-                  <span>vipulutkarsh3224@gmail.com</span>
+                  <span>viputkarsh3224@gmail.com</span>
                 </div>
                 <div className="contact-detail">
                   <i className="fas fa-phone contact-detail-icon"></i>
@@ -495,13 +495,13 @@ const App = () => {
         </div>
       </section>
       <div className="contact-links">
-                <a href="mailto:vipulutkarsh3224@gmail.com" className="contact-icon">
+                <a href="mailto:viputkarsh3224@gmail.com" className="contact-icon">
                   <i className="fas fa-envelope"></i>
                 </a>
                 <a href="tel:+919546546797" className="contact-icon">
                   <i className="fas fa-phone"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/vipul-utakarsh-9a38a9205" className="contact-icon">
+                <a href="https://www.linkedin.com/in/vip-utakarsh-9a38a9205" className="contact-icon">
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="https://github.com/yashu-2408" className="contact-icon">
