@@ -493,7 +493,7 @@ const App = () => {
         </div>
       </section>
       <div className="contact-links">
-                <a href="mailto:viputkarsh3224@gmail.com" className="contact-icon">
+                <a href="mailto:viputakarsh3224@gmail.com" className="contact-icon">
                   <i className="fas fa-envelope"></i>
                 </a>
                 <a href="tel:+919546546797" className="contact-icon">
