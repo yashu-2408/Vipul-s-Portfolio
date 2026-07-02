@@ -170,14 +170,12 @@ const App = () => {
           <div className="max-w-4xl mx-auto">
             <div className="about-card">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                I'm a passionate Computer Science student at Chandigarh University with a strong foundation in 
-                full-stack development, AI/ML, and innovative technologies. My experience spans from backend API
-                development to creating AI-powered applications that solve real-world problems.
+                I am a Software Engineer focused on building Generative AI applications and backend systems. I have practical experience fine-tuning open-source LLMs, orchestrating multi-agent AI networks, and integrating real-time communication APIs like WhatsApp and Firebase. I enjoy turning complex data into simple, low-latency applications that solve real-world problems.
               </p>
-              <p className="text-lg text-gray-300 leading-relaxed">
+              /*<p className="text-lg text-gray-300 leading-relaxed">
                 With hands-on experience in projects ranging from multi-agent AI research systems to facial recognition
                 attendance systems, I bring a unique blend of creativity and technical expertise to every challenge.
-              </p>
+              </p>*/
             </div>
           </div>
         </div>
