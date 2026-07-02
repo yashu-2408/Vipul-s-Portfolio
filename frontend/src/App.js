@@ -130,7 +130,7 @@ const App = () => {
                 Passionate about creating innovative solutions with AI/ML, backend development, and innovative technologies.
               </p>
               <div className="flex flex-wrap justify-center gap-4 mb-8">
-                <a href="mailto:vipulutkarsh3224@gmail.com" className="contact-btn">
+                <a href="mailto:viputkarsh3224@gmail.com" className="contact-btn">
                   <i className="fas fa-envelope"></i>
                   Get In Touch
                 </a>
@@ -146,7 +146,7 @@ const App = () => {
                 <a href="tel:+919546546797" className="contact-icon">
                   <i className="fas fa-phone"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/vipul-utkarsh-9a38a9205" className="contact-icon">
+                <a href="https://www.linkedin.com/in/vipul-utakarsh-9a38a9205" className="contact-icon">
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="https://github.com/yashu-2408" className="contact-icon">
@@ -170,9 +170,7 @@ const App = () => {
           <div className="max-w-4xl mx-auto">
             <div className="about-card">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                I'm a passionate Computer Science student at Chandigarh University with a strong foundation in 
-                full-stack development, AI/ML, and innovative technologies. My experience spans from backend API
-                development to creating AI-powered applications that solve real-world problems.
+                I am a passionate Software Engineer dedicated to building AI-powered web applications and robust backend systems. I love solving complex problems using Data Structures & Algorithms and am always eager to learn new technologies.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
                 With hands-on experience in projects ranging from multi-agent AI research systems to facial recognition
@@ -482,7 +480,7 @@ const App = () => {
               <div className="contact-details">
                 <div className="contact-detail">
                   <i className="fas fa-envelope contact-detail-icon"></i>
-                  <span>vipulutkarsh3224@gmail.com</span>
+                  <span>viputkarsh3224@gmail.com</span>
                 </div>
                 <div className="contact-detail">
                   <i className="fas fa-phone contact-detail-icon"></i>
@@ -495,7 +493,7 @@ const App = () => {
         </div>
       </section>
       <div className="contact-links">
-                <a href="mailto:vipulutkarsh3224@gmail.com" className="contact-icon">
+                <a href="mailto:viputkarsh3224@gmail.com" className="contact-icon">
                   <i className="fas fa-envelope"></i>
                 </a>
                 <a href="tel:+919546546797" className="contact-icon">
