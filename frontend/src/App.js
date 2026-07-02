@@ -510,7 +510,7 @@ const App = () => {
       {/* Footer */}
       <footer className="py-8 border-t border-gray-800">
         <div className="container mx-auto px-6 text-center">
-          <p className="text-gray-400">&copy; 2024 Vipul Utkarsh. All rights reserved.</p>
+          <p className="text-gray-400">&copy; 2024 Vipul Utakarsh. All rights reserved.</p>
         </div>
       </footer>
     </div>
