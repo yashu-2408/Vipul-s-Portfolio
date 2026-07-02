@@ -23,45 +23,49 @@ const App = () => {
 
   const projects = [
     {
-      title: "AI-Driven Travel Itinerary Planner",
-      description: "AI-powered planner reducing itinerary planning time by 90%. OpenWeather API for real-time data synchronization across 100,000+ locations.",
-      tech: ["OpenWeather", "Gemini", "Google Maps API", "AI/ML"],
+      title: "Multi-Agent AI Research System",
+      description: "Built a multi-agent research assistant orchestrating specialized CrewAI agents for task delegation and collaboration. Integrated Groq-hosted Llama 3 70B for low-latency inference. Connected DuckDuckGo Search for live web retrieval.",
+      tech: ["Streamlit", "CrewAI", "Groq", "Llama 3", "DuckDuckGo"],
+      date: "Ongoing",
       gradient: "from-blue-600 to-purple-600"
     },
     {
-      title: "Facial Recognition Attendance System",
-      description: "Automated attendance via facial recognition, reducing manual work by 90%. Real-time monitoring with 85% accuracy.",
-      tech: ["Django", "OpenCV", "SQLite", "Python"],
-      gradient: "from-green-600 to-teal-600"
-    },
-    {
-      title: "Custom Android ROM Development",
-      description: "Built custom ROM modifying UI and system features for enhanced performance. Tweaked kernel settings for phone battery life.",
-      tech: ["AOSP", "Linux Kernel", "Android"],
-      gradient: "from-orange-600 to-red-600"
+      title: "AI-Driven Travel Itinerary Planner",
+      description: "AI-powered planner reducing itinerary planning time by 90%. OpenWeather API for real-time weather updates. Gemini AI generating personalized recommendations with 85% accuracy.",
+      tech: ["React", "TypeScript", "OpenWeather", "Gemini", "Google Maps"],
+      date: "2025",
+      gradient: "from-purple-600 to-indigo-600"
     },
     {
       title: "Stock Market Prediction Web App",
-      description: "Flask-based ML-powered stock market predictor. Real-time stock data retrieval through yFinance API.",
-      tech: ["Flask", "yFinance", "PyTorch", "ML"],
+      description: "Flask-based ML-powered stock market predictor. Automated model training and tuning using PyCaret. Real-time stock data retrieval through yFinance API.",
+      tech: ["Flask", "PyCaret", "yFinance", "ML"],
+      date: "2024",
       gradient: "from-pink-600 to-purple-600"
+    },
+    {
+      title: "Facial Recognition Attendance System",
+      description: "Automated attendance via facial recognition, reducing manual work by 90%. Django-based web app with real-time monitoring and OpenCV for high-accuracy face detection.",
+      tech: ["Django", "OpenCV", "SQLite", "Python"],
+      date: "2023",
+      gradient: "from-green-600 to-teal-600"
     }
   ];
 
   const skills = {
-    "Languages": ["C++", "Java", "Python", "SQL", "JavaScript"],
-    "Technologies": ["Firebase", "GitHub", "Supabase", "MongoDB Atlas"],
-    "Frameworks": ["React", "Django", "Flask", "Streamlit"],
-    "Core Subjects": ["DBMS", "Machine Learning", "Computer Networks", "Operating Systems"]
+    "Languages": ["Python", "C++", "SQL", "TypeScript", "JavaScript"],
+    "Gen AI & ML": ["Prompt Engineering", "RAG", "Hugging Face", "LangChain", "LLM APIs", "Fine-tuning", "CrewAI", "OpenCV"],
+    "Frameworks & Cloud": ["Django", "Flask", "Streamlit", "React", "AWS (EC2, S3, Lambda, SageMaker)"],
+    "Technologies": ["Firebase", "Supabase", "GitHub", "Netlify", "Postman", "Cursor"],
+    "Core Subjects": ["Machine Learning", "Data Structures and Algorithms", "DBMS", "Computer Networks", "Operating Systems"]
   };
 
   const certifications = [
-    { name: "Developing AI Applications with Python and Flask", date: "Mar 2024 - May 2024" },
-    { name: "JavaScript", date: "Jan 2024 - Mar 2024" },
-    { name: "Principles of UX/UI Design", date: "Jan 2024 - Mar 2024" },
-    { name: "React.JS", date: "Dec 2023 - Mar 2024" },
-    { name: "Full Stack Web Development using Node.js", date: "May 2023 - Oct 2023" },
-    { name: "Continuous Integration and Delivery - DevOps", date: "May 2023 - Sep 2023" }
+    { name: "Developing AI Applications with Python and Flask", date: "(Mar 2024 - May 2024)" },
+    { name: "Principles of UX/UI Design", date: "(Jan 2024 - Mar 2024)" },
+    { name: "React JS", date: "(Dec 2023 - Mar 2024)" },
+    { name: "Full Stack Web Development using Node.js", date: "(May 2023 - Oct 2023)" },
+    { name: "Continuous Integration and Delivery - DevOps", date: "(May 2023 - Sep 2023)" }
   ];
 
   if (isLoading) {
@@ -114,7 +118,7 @@ const App = () => {
             <div className="hero-card">
               <h1 className="hero-title">
                 <span className="block text-6xl md:text-8xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
-                  Vipul Utakarsh
+                  Vipul Utkarsh
                 </span>
               </h1>
               <div className="hero-subtitle">
@@ -126,7 +130,7 @@ const App = () => {
                 Passionate about creating innovative solutions with AI/ML, backend development, and innovative technologies.
               </p>
               <div className="flex flex-wrap justify-center gap-4 mb-8">
-                <a href="mailto:vipuutakarsh3224@gmail.com" className="contact-btn">
+                <a href="mailto:vipulutkarsh3224@gmail.com" className="contact-btn">
                   <i className="fas fa-envelope"></i>
                   Get In Touch
                 </a>
@@ -136,13 +140,13 @@ const App = () => {
                 </a>
               </div>
               <div className="contact-links">
-                <a href="mailto:viputakarsh3224@gmail.com" className="contact-icon">
+                <a href="mailto:vipulutkarsh3224@gmail.com" className="contact-icon">
                   <i className="fas fa-envelope"></i>
                 </a>
                 <a href="tel:+919546546797" className="contact-icon">
                   <i className="fas fa-phone"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/vipul-utakarsh-9a38a9205" className="contact-icon">
+                <a href="https://www.linkedin.com/in/vipul-utkarsh-9a38a9205" className="contact-icon">
                   <i className="fab fa-linkedin"></i>
                 </a>
                 <a href="https://github.com/yashu-2408" className="contact-icon">
@@ -167,12 +171,12 @@ const App = () => {
             <div className="about-card">
               <p className="text-lg text-gray-300 leading-relaxed mb-6">
                 I'm a passionate Computer Science student at Chandigarh University with a strong foundation in 
-                full-stack development, AI/ML, and mobile technologies. My experience spans from backend API 
+                full-stack development, AI/ML, and innovative technologies. My experience spans from backend API
                 development to creating AI-powered applications that solve real-world problems.
               </p>
               <p className="text-lg text-gray-300 leading-relaxed">
-                With hands-on experience in projects ranging from facial recognition systems to custom Android 
-                ROM development, I bring a unique blend of creativity and technical expertise to every challenge.
+                With hands-on experience in projects ranging from multi-agent AI research systems to facial recognition
+                attendance systems, I bring a unique blend of creativity and technical expertise to every challenge.
               </p>
             </div>
           </div>
@@ -196,10 +200,10 @@ const App = () => {
                 </div>
               </div>
               <ul className="work-achievements">
-                <li>Developed and optimized back-end APIs for the car detailing platform</li>
-                <li>Integrated Firebase for real-time data synchronization</li>
-                <li>Improved database efficiency, reducing response time by 30%</li>
-                <li>Implemented authentication and security best practices</li>
+                <li>Built back-end APIs to integrate a WhatsApp booking system with real-time Firebase syncing.</li>
+                <li>Fine-tuned an open-source LLM using LoRA on 300+ FAQs to automate customer support responses.</li>
+                <li>Deployed the fine-tuned adapter weights to an AWS S3 cloud bucket for backend server access.</li>
+                <li>Optimized database queries and indexing, cutting application response times by 30%.</li>
               </ul>
             </div>
           </div>
@@ -219,7 +223,7 @@ const App = () => {
                   <div className={`project-bg bg-gradient-to-br ${project.gradient}`}></div>
                   <div className="project-overlay"></div>
                   <div className="project-icon">
-                    <i className={`fas ${index === 0 ? 'fa-brain' : index === 1 ? 'fa-camera' : index === 2 ? 'fa-mobile-alt' : 'fa-chart-line'}`}></i>
+                    <i className={`fas ${index === 0 ? 'fa-robot' : index === 1 ? 'fa-plane' : index === 2 ? 'fa-chart-line' : 'fa-camera'}`}></i>
                   </div>
                 </div>
                 <div className="project-details">
@@ -285,9 +289,9 @@ const App = () => {
                     <div className="avatar-college">👨‍💻</div>
                   </div>
                   <div className="stage-content">
-                    <h3>B.E. Computer Science</h3>
+                    <h3>B.E. in Computer Science</h3>
                     <p>Chandigarh University</p>
-                    <span className="grade">CGPA: 7.76</span>
+                    <span className="grade">2021 - 2025</span>
                   </div>
                 </div>
               </div>
@@ -478,7 +482,7 @@ const App = () => {
               <div className="contact-details">
                 <div className="contact-detail">
                   <i className="fas fa-envelope contact-detail-icon"></i>
-                  <span>viputakarsh3224@gmail.com</span>
+                  <span>vipulutkarsh3224@gmail.com</span>
                 </div>
                 <div className="contact-detail">
                   <i className="fas fa-phone contact-detail-icon"></i>
@@ -491,7 +495,7 @@ const App = () => {
         </div>
       </section>
       <div className="contact-links">
-                <a href="mailto:viputakarsh3224@gmail.com" className="contact-icon">
+                <a href="mailto:vipulutkarsh3224@gmail.com" className="contact-icon">
                   <i className="fas fa-envelope"></i>
                 </a>
                 <a href="tel:+919546546797" className="contact-icon">
@@ -508,7 +512,7 @@ const App = () => {
       {/* Footer */}
       <footer className="py-8 border-t border-gray-800">
         <div className="container mx-auto px-6 text-center">
-          <p className="text-gray-400">&copy; 2024 Vipul Utakarsh. All rights reserved.</p>
+          <p className="text-gray-400">&copy; 2024 Vipul Utkarsh. All rights reserved.</p>
         </div>
       </footer>
     </div>
