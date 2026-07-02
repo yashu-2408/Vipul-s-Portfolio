@@ -118,7 +118,7 @@ const App = () => {
             <div className="hero-card">
               <h1 className="hero-title">
                 <span className="block text-6xl md:text-8xl font-bold bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent mb-4">
-                  Vipul Utkarsh
+                  Vipul Utakarsh
                 </span>
               </h1>
               <div className="hero-subtitle">
@@ -140,7 +140,7 @@ const App = () => {
                 </a>
               </div>
               <div className="contact-links">
-                <a href="mailto:vipulutkarsh3224@gmail.com" className="contact-icon">
+                <a href="mailto:viputkarsh3224@gmail.com" className="contact-icon">
                   <i className="fas fa-envelope"></i>
                 </a>
                 <a href="tel:+919546546797" className="contact-icon">
